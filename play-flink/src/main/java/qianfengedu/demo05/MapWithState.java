@@ -82,7 +82,8 @@ public class MapWithState {
         KeyedStream<Tuple2<String, Integer>, Tuple> keyedStream = map.keyBy(0);
 
         // 为了保证程序出现问题可以继续累加，要记录分组聚合的中间结果
-        SingleOutputStreamOperator<Tuple2<String, Integer>> aggValue = keyedStream.map(new RichMapFunction<Tuple2<String, Integer>, Tuple2<String, Integer>>() {
+        SingleOutputStreamOperator<Tuple2<String, Integer>> aggValue =
+                keyedStream.map(new RichMapFunction<Tuple2<String, Integer>, Tuple2<String, Integer>>() {
 
             private transient ValueState<Tuple2<String, Integer>> valueState;
 
