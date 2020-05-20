@@ -19,12 +19,7 @@ public class UserDefinedFlinkUtils {
     private static final StreamExecutionEnvironment env =
             StreamExecutionEnvironment.getExecutionEnvironment();
 
-    /**
-     *
-     * @param args
-     * @param simpleStringSchema
-     * @return
-     */
+
     public static DataStreamSource<String> createKafkaSource
             (String[] args, SimpleStringSchema simpleStringSchema) {
         String topic = args[0];
