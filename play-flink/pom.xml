@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <flink.version>1.9.1</flink.version>
+        <flink.version>1.9.2</flink.version>
         <blink.version>1.5.1</blink.version>
         <mysql.version>5.1.47</mysql.version>
         <slf4j.version>1.7.7</slf4j.version>
