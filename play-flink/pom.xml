@@ -11,7 +11,7 @@
     <properties>
         <flink.version>1.9.1</flink.version>
         <blink.version>1.5.1</blink.version>
-        <mysql.version>5.1.47</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <slf4j.version>1.7.7</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
         <scala.binary.version>2.11</scala.binary.version>
